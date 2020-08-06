@@ -1,10 +1,12 @@
-//  Copyright © 2016 Open Whisper Systems. All rights reserved.
+//
+//  Copyright (c) 2018 Open Whisper Systems. All rights reserved.
+//
 
 #import "OWSDeviceProvisioningURLParser.h"
-#import <SignalServiceKit/NSData+Base64.h>
-#import <XCTest/XCTest.h>
+#import "SignalBaseTest.h"
+#import <SignalCoreKit/NSData+OWS.h>
 
-@interface OWSDeviceProvisioningURLParserTest : XCTestCase
+@interface OWSDeviceProvisioningURLParserTest : SignalBaseTest
 
 @end
 
